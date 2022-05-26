@@ -1,0 +1,137 @@
+.photo_container{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    padding-right: 10px;
+}
+.photo{
+    object-fit: fill;
+    height: 650px;
+    width: 549.3px;
+    position: relative;
+
+}
+.swipe_buttons{
+    padding-top: 5px;
+    background-color: whitesmoke;
+    width: 548.3px;
+    border-bottom: 1px solid rgba(0,0, 0, 0.3);
+    border-left:  1px solid rgba(0,0, 0, 0.3);
+    border-right:  1px solid rgba(0,0, 0, 0.3);
+}
+.profile_up{
+    width: 547.9px;
+    display: flex;
+    border-top:  1px solid rgba(0,0, 0, 0.3);
+    border-left:  1px solid rgba(0,0, 0, 0.3);
+    border-right:  1px solid rgba(0,0, 0, 0.3);
+
+}
+
+.profile_picture_container_up{
+    position: relative;
+}
+.profile_up_info{
+    font-size: 11px;
+    padding-top: 20px;
+
+    color: rgba(0,0, 0, 0.7);
+}
+
+.profile_down{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    
+    
+
+}
+.profile_picture_container_down{
+    position: relative;
+    
+    
+}
+
+.text1{
+    flex: 1;
+    padding-top: 10px;
+    font-size: 10px;
+    
+    position: relative;
+    
+    padding-left: 5px;
+    
+    display: flex;
+    
+
+}
+.text2{
+    flex:1;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+
+}
+
+.icons{
+    position: relative;
+    display: flex;
+    flex: 0.25;
+    height: 38px;
+    width: 38px;
+    padding-right: 10px;
+}
+.swipe_buttons_icons{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+
+}
+.swipe_buttons_icons >div{
+    display: flex;
+    flex: 0.20;
+}
+.swipe_buttons_icons >p{
+    display: flex;
+    flex: 0.95;
+}
+.book_mark_icon{
+    height: 38px;
+    width: 38px;
+    position: relative;
+    display: flex;
+    flex: 0.05;
+
+}
+.comment{
+    width: 548.3px;
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    border-top:  1px solid rgba(0,0, 0, 0.3);
+    border-bottom: 1px solid rgba(0,0, 0, 0.3);
+    border-left:  1px solid rgba(0,0, 0, 0.3);
+    border-right:  1px solid rgba(0,0, 0, 0.3);
+}
+.comment_text{
+    flex: 1;
+    font-size: 12px;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+        
+    
+}
+.comment_text::-webkit-scrollbar{
+    display: none;
+}
+.post_text{
+    color: deepskyblue;
+    padding-right: 5px;
+    font-size: 12px;
+    opacity: 0.4;
+}
+.liked_by{
+    display: flex;
+    flex-direction: row;
+}  
