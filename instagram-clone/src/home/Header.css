@@ -1,0 +1,284 @@
+.header{
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(0,0, 0, 0.3);
+    padding: 7px;
+    height: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    place-items: center ;
+    
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+    
+}
+.header_middle{
+    flex: 0.60;
+    justify-content: space-around;
+    display: flex;
+    
+    
+
+}
+.messageIcon{
+    height:  22px;
+    width: 22px;
+    padding-bottom: 5px;
+    padding-right: 25px;
+}
+.header_text{
+    height: 35px;
+    width: 230px;
+    background-color: whitesmoke;
+    
+    border-color: rgba(0,0, 0, 0.1);
+    border-radius: 5px;
+}
+.instagram_logo{
+    height: 40px;
+    width: 120px;
+    padding-left: 290px;
+    
+   
+    color: yellow   ;
+    
+}
+.header_icons{
+    padding-bottom: 10px;
+    flex: 0.40;
+    display: inline;
+    position: relative;
+}
+
+.inside_icons{
+    padding-bottom: 5px;
+    direction: rtl;
+    cursor: pointer;
+    padding-right: 25px;
+}
+.small_profile_picture{
+    padding-top: 10px;
+    cursor: pointer;
+}
+.create_post_button{
+        background-color: white;
+        border: 0px solid white;
+        cursor: pointer;
+}
+
+.close_icon{
+    left: 113vw;
+    margin-top: 370px;
+    position: absolute;
+    color: white;
+
+}
+.post_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 513px;
+    width: 540px;
+    height: 360px;
+    padding-bottom: 300px;
+    margin-left: 680px;
+    background-color: white;
+    border-radius: 10px;
+}
+.post_container >h6{
+    padding: 9px;
+    font-size: 14px;
+    font-weight: 550;
+    padding-left: 210px;
+    border-bottom: 1px solid lightgray;
+}
+.image_icon{
+    position: relative;
+    left: 14px;
+    top: -13px;
+    height: 60px;
+    width: 60px;
+    -webkit-transform: rotate(-10deg);
+    
+}
+.myIcons{
+    margin-top: 220px;
+    padding-left: 205px;
+}
+.play_icon{
+    background-color: black;
+    filter: invert(1);
+    width: 40px;
+    height: 40px;
+    left: 44px;
+   border: 1px solid lightgray;
+   padding: 5px;
+   border-radius: 7px;
+   z-index: 1;
+   -webkit-transform: rotate(10deg);
+   
+}
+.post_container >p{
+    margin-top: 20px;
+    color: black;
+    top: -20px;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-left: 150px;
+}
+.start_create_post{
+    width: 150px;
+    padding: 5px;
+    background-color: rgb(10, 105, 230,0.8);
+    margin-left: 200px;
+    margin-top: 20px;
+    border: 0px solid blue;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.close_button{
+    cursor: pointer;
+}
+
+.dropdown >ul>li{
+    right: 30px;
+    flex: 1;
+    position: relative;
+}
+.dropdown>p:hover{
+   background-color: lightgray;
+}
+.settings_icon{
+    filter: invert(1);
+}
+.dropdown_icons{
+    padding: 3px;
+    position: relative;
+    bottom: 5px;
+}
+.private_icon{
+    -webkit-transform: rotate(50deg);
+}
+.logout{
+    border-top: 1px solid lightgray;
+}
+.up_arrow{
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 197px;
+}
+.profile_icon{
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.likers_photo{
+    border-radius: 50%;
+    width: 40px;
+    padding: 5px;
+    height: 40px;
+}
+.liked_photo{
+    margin-top: 7px;
+    margin-left: 139px;
+}
+.each_notification{
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+}
+.each_notification >p{
+   margin-top: 7px;
+
+}
+.follow_status_button{
+    height: 25px;
+   margin-top: 7px;
+    margin-left: 95px;
+}
+.favorite_button{
+    width: 35px;
+    background-color: white;
+    border: 1px solid white;
+}
+.day_when_done{
+    opacity: 0.5;
+}
+.each_searched{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding-bottom: 8px;
+    width: inherit;
+}
+.searched_info{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 170px;
+    flex: 1;
+}
+
+.searched_photo_info{
+    display: flex;
+    
+    flex-direction: row;
+}
+.remove_icon{
+    margin-top: 10px;
+    padding-left: 85px;
+    
+    opacity: 0.5;
+}
+.descriptions{
+    width: inherit;
+    height: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 19px;
+    font-size: small;
+    padding-bottom: 23px;
+}
+.descriptions >span{
+    color: rgb(10, 105, 230);
+    margin-right: 20px;
+    font-weight: 500;
+
+}
+.descriptions >strong{
+    margin-left: 15px;
+    font-size: 15px;
+    flex: 1;
+    font-weight: 500;
+}
+.searched_photo_container{
+    border-radius: 50%;
+    width: 40px;
+    padding: 1.5px;
+    height: 40px;
+    border: 2px solid darkred;
+    margin-left: 10px;
+}
+.searched_photo{
+    border-radius: 50%;
+    width: 40px;
+    padding: 5px;
+    height: 40px;
+    position: relative;
+    right: 5px;
+    bottom: 5px;
+}
+.profile_name_only{
+    margin-top: 5px;
+}
+.profile_link{
+    text-decoration: none;
+    color: black;
+}
