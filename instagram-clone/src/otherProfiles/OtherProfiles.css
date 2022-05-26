@@ -1,0 +1,175 @@
+.otherProfiles{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 54.5%;
+    margin-top: 25px;
+    padding-top: 5px;
+    margin-left: 345px;
+    margin-bottom: auto;
+}
+.otherProfiles::-webkit-scrollbar{
+    display: none;
+}
+.photo_icon{
+    position: relative;
+    right: 35px;
+    top: 15px;
+    
+   filter: invert(1);
+}
+.play_icon_moreProfiles{
+    position: relative;
+    right: 50px;
+    top: 15px;
+    
+   filter: invert(1);
+}
+.image_browse{
+    object-fit: fill;
+    flex: 1;
+    height: 265px;
+    width: 260px;
+    margin-left: auto;
+    z-index: 1;
+    
+}
+.video_browse{
+    height: 565px;
+    display: flex;
+    width: 540px;
+    display: flex;
+    object-fit: fill;
+    margin-right: auto;
+}
+.first_section{
+    display: flex;
+    flex: 1;
+
+
+}
+.container_of_photo{
+    height: 300px;
+    width: 280px;
+    display: flex;
+    
+    margin-left: auto;
+   
+}
+.third_section{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+
+}
+.third_container_of_photo{
+    height: 300px;
+    width: 280px;
+    display: flex;
+    margin-left: auto;
+    
+    
+}
+.third_image_browse{
+    object-fit: fill;
+    flex: 1;
+    height: 265px;
+    width: 263px;
+    margin-left: auto;
+
+}
+.third_video_browse{
+    height: 565px;
+    display: flex;
+    width: 540px;
+    display: flex;
+    object-fit: fill;
+    margin-right: auto;
+}
+.third_photos{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+.second_section{
+    display: flex;
+    flex-direction: row;
+}
+.line_of_pictures{
+    display: flex;
+    flex-direction: column;
+}
+.lined_image_browse{
+    object-fit: fill;
+    flex: 1;
+    height: 265px;
+    width: 258px;
+
+}
+.container_of_lined_pictures{
+    height: 300px;
+    width: 252px;
+    padding-right:30px;
+    display: flex;
+    margin-left: auto;
+}
+.video_browse:hover {
+    filter: invert(35%);
+    
+}
+.lined_image_browse:hover{
+    
+    filter: invert(35%);
+}
+.image_browse:hover{
+    filter: invert(35%);
+    
+}
+.third_image_browse:hover{
+    filter: invert(35%);
+
+}
+.third_video_browse:hover{
+    filter: invert(35%);
+
+}
+.image_browse:hover +.information_paragraph{
+    display: block;
+}
+.video_browse:hover +.information_paragraph_video{
+    display: block;
+}
+.third_image_browse:hover +.information_paragraph{
+    display: block;
+}
+
+.lined_image_browse:hover +.information_paragraph{
+    display: block;
+}
+.third_video_browse:hover + .information_paragraph_video{
+    display: block;
+}
+.information_paragraph{
+    position: relative;
+    left: 50px;
+    font-size: small;
+    color: white;
+    top: -130px;
+    display: none;
+    
+}
+
+.information_paragraph_video{
+    position: relative;
+    left: 50px;
+    font-size: small;
+    color: white;
+    top: -300px;
+    display: none;
+    left: 180px;    
+}
+.paragraph_icon{
+    position: relative;
+    top: 5px;
+    right: 3px;
+}
