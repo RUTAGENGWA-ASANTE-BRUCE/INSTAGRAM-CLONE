@@ -1,0 +1,124 @@
+.side_bar{
+    position: relative;
+    flex: 0.40;
+    display: flex;
+    flex-direction: column; 
+    top: -139px;
+    
+    
+}
+.profile_picture{
+    position: relative;
+    margin-left: auto;
+    padding-left: 0px;
+}
+.side_profile_info{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+}
+.container{
+    margin-top: 0px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    flex: 1;
+    
+
+    
+}
+.side_profile_info_p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-left: -20px;
+    padding-top: 50px;
+
+}
+
+.user_name{
+    font-size: 11px;
+    opacity: 0.4;
+
+}
+.profile_name{
+    font-size: 11px;
+    
+    font-weight: bold;
+
+
+}
+.switch{
+    font-size: 8px;
+    
+    font-weight: bold;
+    margin-bottom: auto;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 13px;
+    
+    border: none;
+    background-color: white;
+    color: deepskyblue;
+}
+.suggestions_forYou{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+
+}
+.suggestions_forYou >p{
+    padding-left: 107px;
+}
+.suggestion_head{
+    opacity: 0.4;
+
+}
+.see_all{
+    font-size: 8px;
+    
+    
+}
+.suggestions{
+    position: relative;
+    
+
+}
+
+
+
+.about_us{
+    padding-top: 20px;
+    position: relative;
+}
+.paragraph1{
+    font-size: 9px;
+    opacity: 0.2;
+    display: flex;
+    font-weight: bold;
+
+}
+.paragraph2{
+    font-size: 9px;
+    opacity: 0.2;
+    font-weight: bold  ;
+    position: relative;
+    display: flex;
+
+
+    
+}
+.paragraph3{
+    font-size: 9px;
+    opacity: 0.2;
+    font-weight: bold;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+
+}
+.copyright_icon{
+    opacity: 0.2;
+
+}
